@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- font awsome link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Bookmarks with Redux</title>
+</head>
+<body>
+    <div class="container my-3">
+        <div class="col-md-8 offset-md-2">
+            <h3> Enter a valid link </h3>
+            <input type="text" name="" class="form-control" id="urlInput">
+            <h5 class="text-center mt-5"> Favorite list </h5>
+            <ul class="list-group mt-4" id="favBookMarks"></ul>
+
+            <h5 class="text-center mt-5"> Bookmark list </h5>
+            <ul class="list-group mt-4" id="allBookMarks"></ul>
+        </div>
+    </div>
+
+    <script src="./scripts/app.js"></script>
+</body>
+</html>
